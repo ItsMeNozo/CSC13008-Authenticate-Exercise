@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "ngoc",
+    "password": "nauBwxDhrUwTVDQZxGkZKDfapusYAMuI",
+    "database": "tuan8db_juv0",
+    "host": "dpg-clhmoil8td7s73bpnufg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ngoc",
+    "password": "nauBwxDhrUwTVDQZxGkZKDfapusYAMuI",
+    "database": "tuan8db_juv0",
+    "host": "dpg-clhmoil8td7s73bpnufg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
