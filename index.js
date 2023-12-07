@@ -8,6 +8,7 @@ const cookieParser = require("cookie-parser");
 const session = require("express-session");
 // Thiet lap thu muc Static
 app.use(express.static(__dirname + "/html"));
+danApp.set("views", path.join(__dirname, "/views"));
 
 // Cau hinh Template Engine
 app.engine(
